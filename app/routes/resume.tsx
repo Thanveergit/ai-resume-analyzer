@@ -11,6 +11,7 @@ export const meta = ()=>([
 ])
 
 const Resume = () => {
+     
      const {id} = useParams();
      const {auth,isLoading,fs,kv} = usePuterStore();
      const [imageUrl,setImageUrl] = useState('');
